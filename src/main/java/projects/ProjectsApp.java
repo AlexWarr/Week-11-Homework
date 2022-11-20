@@ -92,7 +92,7 @@ public class ProjectsApp {
 
 
 	private void updateProjectDetails() {
-		if(Objects.isNull(curProject)) {
+		if(Objects.isNull(curProject.getProjectId())) {
 			System.out.println("\nPlease select a project.");
 			return;
 		}
